@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2014-07-21 16:57+0200\n"
-"PO-Revision-Date: 2014-07-21 17:34+0100\n"
+"PO-Revision-Date: 2014-08-21 14:42+0100\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: \config\bootstrap.php:71
@@ -21,26 +21,30 @@ msgid ""
 "verletzt Rechte Dritter (Persönlichkeitsrechte, Urheberrechte, Markenrechte "
 "und Geschmacksmusterrechte)"
 msgstr ""
+"infringes upon third party rights such as personality rights, copyrights, "
+"trademarks and design rights "
 
 #: \config\bootstrap.php:72
 msgid "enthält kommerzielle Werbung (insbesondere Spamming)"
-msgstr ""
+msgstr "contains commercial content (especially spamming)"
 
 #: \config\bootstrap.php:73
 msgid ""
 "enthält bedrohende, herabwürdigende, beleidigende, verleumderische oder "
 "unwahre Inhalte"
 msgstr ""
+"contains content that is threatening, humiliating, discriminating or untrue"
 
 #: \config\bootstrap.php:74
 msgid ""
 "enthält pornographische, vulgäre, obszöne, anstößige, belästigende, "
 "diskriminierende oder gewaltverherrlichende Inhalte"
 msgstr ""
+"contains content that is pornographic, obscene, molesting, discriminating"
 
 #: \config\bootstrap.php:75
 msgid "enthält Gewaltdarstellungen"
-msgstr ""
+msgstr "includes violence"
 
 #: \config\bootstrap.php:76
 msgid ""
@@ -48,7 +52,10 @@ msgid ""
 "volksverhetzende, verfassungsfeindliche, rassistische oder fremdenfeindliche "
 "Inhalte"
 msgstr ""
+"includes material inciting to ethnic or racial hatred or anticonstitutional, "
+"racist or xenophobic material "
 
+# Others
 #: \config\bootstrap.php:77
 msgid "Sonstiges"
 msgstr ""
@@ -516,27 +523,24 @@ msgstr "Admin - Activity Stream"
 msgid "Der Eintrag wurde gespeichert"
 msgstr "The entry has been saved."
 
-# The comment cannot be saved. Please try again.
 #: \controllers\blacklists_controller.php:33;53
 #: \controllers\userblacklists_controller.php:33;53
-#, fuzzy
 msgid ""
 "Der Eintrag konnte nicht gespeichert werden. Bitte versuchen Sie es noch "
 "einmal."
-msgstr "The comment cannot be saved. Please try again."
+msgstr "The comment could not be saved. Please try again."
 
+# not for translation
 #: \controllers\blacklists_controller.php:42
 #: \controllers\userblacklists_controller.php:42
-#, fuzzy
 msgid "Ungültige Blacklist"
-msgstr "Delete Blacklist"
+msgstr "Invalid Blacklist"
 
 #: \controllers\blacklists_controller.php:65
 #: \controllers\reports_controller.php:168
 #: \controllers\userblacklists_controller.php:65
-#, fuzzy
 msgid "Ungültige Blacklist ID."
-msgstr "Delete Blacklist"
+msgstr "Invalid Blacklist ID"
 
 # The entry has been deleted
 #: \controllers\blacklists_controller.php:72
@@ -545,13 +549,11 @@ msgstr "Delete Blacklist"
 msgid "Der Eintrag wurde gelöscht"
 msgstr "The entry has been deleted"
 
-# The entry has been deleted
 #: \controllers\blacklists_controller.php:75
 #: \controllers\reports_controller.php:177
 #: \controllers\userblacklists_controller.php:75
-#, fuzzy
 msgid "Der Eintrag wurde nicht gelöscht"
-msgstr "The entry has been deleted"
+msgstr "The entry was not deleted"
 
 # Your comment has been saved
 #: \controllers\blogpostcomments_controller.php:21
@@ -588,7 +590,6 @@ msgstr "Comment is displayed."
 msgid "Fehler bei Freischalten des Kommentars."
 msgstr "An error occured while activating the comment."
 
-# New comment on an article
 #: \controllers\blogpostcomments_controller.php:74
 #, fuzzy
 msgid "Neuer Kommentar zum Artikel"
@@ -600,9 +601,8 @@ msgid "Absender Name:"
 msgstr "Sender:"
 
 #: \controllers\blogpostcomments_controller.php:79
-#, fuzzy
 msgid "Absender E-Mail:"
-msgstr "Sender:"
+msgstr "Sender Email:"
 
 # Activate the comment
 #: \controllers\blogpostcomments_controller.php:84
@@ -614,9 +614,7 @@ msgstr "Activate the comment"
 msgid "Kommentar l&ouml;schen"
 msgstr "Delete comment"
 
-# New comment on an article
 #: \controllers\blogpostcomments_controller.php:93
-#, fuzzy
 msgid "Neuer Kommentar zu einem Artikel"
 msgstr "New comment on an article"
 
@@ -649,9 +647,8 @@ msgstr "User has no rights to edit this thread."
 
 # No group title given
 #: \controllers\boards_controller.php:86
-#, fuzzy
 msgid "Keine Gruppensammlungs-ID angegeben."
-msgstr "No group title given"
+msgstr ""
 
 # User has no rights to edit this thread.
 #: \controllers\boards_controller.php:108
@@ -695,15 +692,13 @@ msgstr "Wrong file format."
 
 # Board coult not be loaded or user is not logged in
 #: \controllers\boards_controller.php:221
-#, fuzzy
 msgid "Gruppensammlung kann nicht geladen werden oder User nicht eingeloggt."
-msgstr "Board could not be loaded or user is not logged in"
+msgstr ""
 
 # Group could not be found
 #: \controllers\boards_controller.php:229
-#, fuzzy
 msgid "Gruppensammlung konnte nicht gefunden werden"
-msgstr "Group could not be found"
+msgstr ""
 
 # Discussion-picture has been deleted successfully
 #: \controllers\boards_controller.php:233
@@ -1356,7 +1351,6 @@ msgstr ""
 
 #  (Topic \"
 #: \controllers\groups_controller.php:374
-#, fuzzy
 msgid " (Thema \""
 msgstr " (Topic \""
 
@@ -1398,11 +1392,12 @@ msgstr "."
 
 #: \controllers\groups_controller.php:569
 msgid "Du hast nun die Gruppe &quot;%1$s&quot; verlassen"
-msgstr ""
+msgstr "You have left the group &quot;%1$s&quot;"
 
+# You have deleted the group &quot;%1$s&quot;
 #: \controllers\groups_controller.php:625
 msgid "Du hast nun die Gruppe &quot;%1$s&quot; gel&ouml;scht"
-msgstr ""
+msgstr "You have deleted the group &quot;%1$s&quot; "
 
 # Group ID was not set
 #: \controllers\groups_controller.php:629
@@ -1448,9 +1443,8 @@ msgstr "Deleting group picture failed. "
 
 # The group could not be saved.
 #: \controllers\groups_controller.php:1321;1745
-#, fuzzy
 msgid "Gruppensammlung konnte nicht gespeichert werden."
-msgstr "Group could not be saved."
+msgstr ""
 
 # groups
 #: \controllers\groups_controller.php:1444 \views\boards\index.ctp:3
@@ -1690,14 +1684,12 @@ msgid "Neue Gruppeneinladung von"
 msgstr "New group invitation from"
 
 #: \controllers\groups_controller.php:2128
-#, fuzzy
 msgid "Benutzer ist bereits Mitglied der Gruppe"
-msgstr "is now a member of this group"
+msgstr "User is already a member of this group"
 
 #: \controllers\groups_controller.php:2133
-#, fuzzy
 msgid "Benutzer konnte nicht gefunden werden"
-msgstr "Post not found"
+msgstr "User cannot be found. "
 
 # Wrong request (3)
 #: \controllers\groups_controller.php:2143
@@ -1744,7 +1736,6 @@ msgstr "Details on media of the group"
 
 # Administrate media of my groups
 #: \controllers\mediawalls_controller.php:538
-#, fuzzy
 msgid "Meine Gruppenmedien verwalten"
 msgstr "Administrate media of my groups"
 
@@ -2370,19 +2361,23 @@ msgstr "Profile"
 msgid "Registrieren"
 msgstr "Register"
 
+# The user name contains forbidden characters
 #: \controllers\users_controller.php:832
 msgid "Der Benutzername enthält verbotene Zeichen"
-msgstr ""
+msgstr "The user name contains forbidden characters"
 
+# Attention: Wrong translation
+# User name is already given.
+# Activate  your user account
 #: \controllers\users_controller.php:838
-#, fuzzy
 msgid "Der Benutzername ist bereits vergeben"
 msgstr "Activate  your user account"
 
+# Attention: wrong translation previously
+# correct translation User name is not allowed
 #: \controllers\users_controller.php:844
-#, fuzzy
 msgid "Der Benutzername ist nicht erlaubt"
-msgstr "Documents unfortunately not allowed!"
+msgstr "User name is not allowed"
 
 #: \controllers\users_controller.php:848
 msgid "Mit dieser E-Mail Adresse ist bereits ein Nutzer registriert"
@@ -4028,13 +4023,12 @@ msgid ""
 msgstr ""
 "Do you really want to delete the discussion and all themes and messages?"
 
+# The discussion has been deleted
 #: \views\boards\index.ctp:169
-#, fuzzy
 msgid "Die Diskussion wurde gelöscht"
 msgstr "The discussion has been deleted"
 
 #: \views\boards\index.ctp:176
-#, fuzzy
 msgid "Die Diskussion konnte nicht gelöscht werden"
 msgstr "The discussion cannot be deleted"
 
@@ -4783,37 +4777,33 @@ msgstr "Upload document"
 
 #: \views\documents\upload.ctp:104
 #: \views\elements\videos\video_upload_new.ctp:95
-#, fuzzy
 msgid "Maximale Dateianzahl überschritten"
-msgstr "Max. file size overload"
+msgstr "Max. file number exceeded"
 
 #: \views\documents\upload.ctp:105
 #: \views\elements\videos\video_upload_new.ctp:96
-#, fuzzy
 msgid "Dateityp nicht erlaubt"
-msgstr "Documents unfortunately not allowed!"
+msgstr "Typ of file not allowed"
 
 #: \views\documents\upload.ctp:106
 #: \views\elements\videos\video_upload_new.ctp:97
 msgid "Die Datei überschreitet die erlaubte Größe"
-msgstr ""
+msgstr "The file exceeds the maximum size."
 
 #: \views\documents\upload.ctp:107
 #: \views\elements\videos\video_upload_new.ctp:98
-#, fuzzy
 msgid "Minimale Dateigröße nicht erreicht"
-msgstr "Maximum file size: 20 MB"
+msgstr "Minimal file size not reached."
 
 #: \views\documents\upload.ctp:226
 #: \views\elements\videos\video_upload_new.ctp:217
-#, fuzzy
 msgid "Upload erfolgreich"
-msgstr "Saved"
+msgstr "Upload successful"
 
 #: \views\documents\upload.ctp:246
 #: \views\elements\videos\video_upload_new.ctp:237
 msgid "Upload fehlgeschlagen. Bitte versuche es später erneut"
-msgstr ""
+msgstr "Upload failed. Please try it again later!"
 
 #: \views\documents\view.ctp:50
 msgid "Download"
@@ -5061,19 +5051,21 @@ msgstr "Do you really want to delete this comment?"
 msgid " sagt:"
 msgstr "says:"
 
+# The user name contains forbidden characters
 #: \views\elements\blogpostcomments\comments_items.ctp:22
 #: \views\elements\email\html\activation_reminder.ctp:9
 #: \views\elements\email\text\activation_reminder.ctp:9
 msgid " um"
-msgstr ""
+msgstr "at"
 
 #: \views\elements\blogposts\blogposts_items.ctp:7
 msgid "Keine News vorhanden"
 msgstr "No news available."
 
+# at
 #: \views\elements\blogposts\blogposts_items.ctp:24 \views\pms\view.ctp:61;72
 msgid "am"
-msgstr ""
+msgstr "at"
 
 #: \views\elements\blogposts\blogposts_items.ctp:24
 msgid "um"
@@ -5390,11 +5382,12 @@ msgid ""
 "Browser.)"
 msgstr "(If you cannot click on the link, please copy it to your browser)"
 
+# at
 #: \views\elements\email\html\activation_parents.ctp:14
 #: \views\elements\email\text\activation_parents.ctp:18
 #: \views\pages\videodreh.ctp:15
 msgid "Auf"
-msgstr ""
+msgstr "at"
 
 #: \views\elements\email\html\activation_parents.ctp:14
 #: \views\elements\email\text\activation_parents.ctp:18
@@ -5619,10 +5612,11 @@ msgstr "Here is your new password for "
 msgid "Du kannst dich zusammen mit deiner E-Mail Adresse"
 msgstr "Together with your e-mail address you can"
 
+# at
 #: \views\elements\email\html\password.ctp:14
 #: \views\elements\email\text\password.ctp:16
 msgid " bei"
-msgstr ""
+msgstr "at"
 
 #: \views\elements\email\html\password.ctp:14
 #: \views\elements\email\text\password.ctp:16
@@ -5651,9 +5645,10 @@ msgstr ""
 "Sadly, you have not activated your account. We would be happy, if you would "
 "activate your account and have a look at our platform."
 
+# .
 #: \views\elements\email\text\activation_reminder.ctp:17
 msgid " begrüßen zu dürfen."
-msgstr ""
+msgstr "."
 
 #: \views\elements\email\text\activation_reminder.ctp:18
 msgid ""
@@ -6314,7 +6309,7 @@ msgstr "not possible"
 
 #: \views\elements\users\register.ctp:22
 msgid "(erlaubte Zeichen: a-z äüöß 0-9 _ und -)"
-msgstr ""
+msgstr "(allowed characters_ a-z äüöß 0-9 _ and - )"
 
 #: \views\elements\users\register.ctp:28 \views\users\login.ctp:15
 msgid "Passwort:"
@@ -6543,10 +6538,12 @@ msgstr "Bitrate:"
 msgid "Dein Browser scheint nicht kompatibel zu"
 msgstr "Your browser is not compatible "
 
+# .
 #: \views\elements\videos\upload_form.ctp:148;161
 #: \views\elements\videos\video_upload.ctp:308
+#, fuzzy
 msgid " zu sein."
-msgstr ""
+msgstr "."
 
 #: \views\elements\videos\upload_form.ctp:149;162
 #: \views\elements\videos\video_upload.ctp:309
@@ -6645,20 +6642,26 @@ msgstr ""
 "Your video has not been uploaded completely. Do you really want to leave the "
 "page?"
 
+# Progress
 #: \views\elements\videos\video_upload_new.ctp:29
+#, fuzzy
 msgid "Fortschritt"
-msgstr ""
+msgstr "Progress"
 
+# Wrong translation
+# Confirm upload
 #: \views\elements\videos\video_upload_new.ctp:101
 #, fuzzy
 msgid "Hochladen bestätigen"
-msgstr "Confirm request"
+msgstr "Confirm upload"
 
 #: \views\elements\videos\video_upload_new.ctp:101
 msgid ""
 "Hiermit bestätige ich, dass alle hochzuladenden Dateien frei sind und keine "
 "Rechte Dritter verletzen."
 msgstr ""
+"I hereby confirm that all files to be uploaded are in the public domain and "
+"do not infringe any thrid party rights. "
 
 #: \views\groupcategories\admin_add.ctp:2
 msgid "Gruppenkategorie erstellen"
@@ -7337,6 +7340,7 @@ msgstr "Preferences"
 msgid "Frontend"
 msgstr "Frontend"
 
+# Log in
 #: \views\layouts\backend.ctp:99
 #, fuzzy
 msgid "Eingeloggt als"
@@ -7370,7 +7374,7 @@ msgstr "START"
 #: \views\layouts\default.ctp:110 \views\layouts\offline.ctp:109
 #: \views\layouts\search.ctp:89
 msgid "STÖBERN"
-msgstr "RUMMAGE"
+msgstr "BROWSE"
 
 #: \views\layouts\default.ctp:116 \views\layouts\offline.ctp:115
 #: \views\layouts\search.ctp:92 \views\layouts\stoebern.ctp:79
@@ -7446,13 +7450,17 @@ msgstr ""
 "That was it. In the future you can safe every website with a click to the "
 "bookmarklet on draufhaber.tv."
 
+# .
 #: \views\layouts\default.ctp:246 \views\layouts\offline.ctp:204
+#, fuzzy
 msgid " speichern."
-msgstr ""
+msgstr "."
 
+# at
 #: \views\layouts\default.ctp:251
+#, fuzzy
 msgid "Auf "
-msgstr ""
+msgstr "At"
 
 #: \views\layouts\default.ctp:251 \views\layouts\offline.ctp:207
 msgid " sammeln!"
@@ -7491,7 +7499,7 @@ msgstr "default_meta_keywords"
 
 #: \views\layouts\stoebern.ctp:77 \views\layouts\suche.ctp:77
 msgid "STOBERN"
-msgstr "RUMMAGE"
+msgstr "BROWSE"
 
 #: \views\layouts\stoebern.ctp:80 \views\layouts\suche.ctp:80
 msgid "JOBS"
@@ -8106,7 +8114,7 @@ msgstr ""
 
 #: \views\pages\home.ctp:53
 msgid "Stöber auf"
-msgstr "Rummage on"
+msgstr "Browse on"
 
 # not for translation
 #: \views\pages\home.ctp:58
@@ -8497,7 +8505,7 @@ msgstr ""
 #: \views\preferences\admin_edit.ctp:9
 #, fuzzy
 msgid "Site-Name"
-msgstr "Name"
+msgstr "Site-Name"
 
 #: \views\preferences\admin_edit.ctp:11
 #, fuzzy
@@ -8604,9 +8612,11 @@ msgstr "Give us your opinion"
 msgid "Du hast Anregungen oder Kritik zu"
 msgstr "You have helpful suggestions for"
 
+# .
 #: \views\reports\feedback.ctp:4
+#, fuzzy
 msgid ", oder einen Fehler festgestellt?"
-msgstr ""
+msgstr "."
 
 #: \views\reports\feedback.ctp:5
 msgid "Dann schick uns deine Meinung:"
@@ -8985,10 +8995,11 @@ msgstr "request code"
 msgid "Hier kannst du deinen Benutzeraccount bei"
 msgstr "Here you can ultimately delete your user account at draufhaber.tv ."
 
-# not for translation
+# .
 #: \views\users\delete_account.ctp:12 \views\users\delete_user.ctp:9
+#, fuzzy
 msgid " endgültig löschen."
-msgstr ""
+msgstr "."
 
 #: \views\users\delete_account.ctp:15
 msgid "Das wird gelöscht:"
@@ -9135,10 +9146,11 @@ msgstr "hi"
 msgid "Zum Profil"
 msgstr "To the profile"
 
-# not for translation
+# %d. %B %Y | %H:%M clock
 #: \views\users\home.ctp:41
+#, fuzzy
 msgid "%d. %B %Y | %H:%M Uhr"
-msgstr ""
+msgstr "%d. %B %Y | %H:%M clock"
 
 #: \views\users\login.ctp:7
 msgid ""
@@ -9182,10 +9194,11 @@ msgstr "Your account is successfully deleted."
 msgid "Bei Fragen kannst Du dich gerne an das Team von"
 msgstr "If you have any questions please contact the team from draufhaber.tv."
 
-# not for translation
+# .
 #: \views\users\logout_deleted_user.ctp:10
+#, fuzzy
 msgid " wenden."
-msgstr ""
+msgstr "."
 
 #: \views\users\profile.ctp:29
 msgid "Möchtest Du \""

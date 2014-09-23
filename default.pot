@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-07-21 16:57+0200\n"
+"POT-Creation-Date: 2014-08-18 16:06+0200\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -108,7 +108,7 @@ msgstr ""
 #: \controllers\administrate_controller.php:203
 #: \controllers\administrates_controller.php:223
 #: \controllers\bookmarks_controller.php:843;952
-#: \controllers\documents_controller.php:883;991
+#: \controllers\documents_controller.php:890;998
 #: \controllers\groupcategories_controller.php:42
 #: \controllers\groups_controller.php:1603;1771;1878
 #: \controllers\users_controller.php:1355;1443
@@ -176,19 +176,19 @@ msgid "Lesen"
 msgstr ""
 
 #: \controllers\app_controller.php:372
-#: \views\applications\edit_app.ctp:380
+#: \views\applications\edit_app.ctp:381
 #: \views\applications\rpc_edit_video.ctp:81
 #: \views\groups\manage_members.ctp:106;140;178
 #: \views\groups\manage_moderators.ctp:56;90
-#: \views\mediawalls\edit.ctp:252;284;321;353
-#: \views\mediawalls\edit_group.ctp:412;437;462;493;546
+#: \views\mediawalls\edit.ctp:253;285;322;354
+#: \views\mediawalls\edit_group.ctp:413;438;463;494;547
 #: \views\mediawalls\rpc_add_to_mediawall.ctp:193;227
 msgid "Fehler beim Speichern"
 msgstr ""
 
 #: \controllers\applications_controller.php:17
 #: \controllers\bookmarks_controller.php:159
-#: \controllers\documents_controller.php:154
+#: \controllers\documents_controller.php:157
 #: \controllers\mediawalls_controller.php:382
 msgid "Details Medien"
 msgstr ""
@@ -317,14 +317,14 @@ msgid "Alle"
 msgstr ""
 
 #: \controllers\articles_controller.php:163;205
-#: \views\applications\edit_app.ctp:43;43;48
+#: \views\applications\edit_app.ctp:44;44;49
 #: \views\elements\mediawalls\mediawall.ctp:112;112
 #: \views\elements\users\activities_home.ctp:6
 #: \views\elements\users\dh_oftheday.ctp:55
 #: \views\groups\admin_delete.ctp:18
 #: \views\layouts\backend.ctp:67
-#: \views\mediawalls\edit.ctp:43;43;48
-#: \views\mediawalls\edit_group.ctp:43;43;48
+#: \views\mediawalls\edit.ctp:44;44;49
+#: \views\mediawalls\edit_group.ctp:44;44;49
 #: \views\mediawalls\index.ctp:20
 #: \views\reports\admin_delete.ctp:14
 #: \views\users\admin_delete.ctp:14
@@ -619,7 +619,7 @@ msgid "Löschen der Themen fehlgeschlagen"
 msgstr ""
 
 #: \controllers\boards_controller.php:323;385
-#: \controllers\documents_controller.php:599
+#: \controllers\documents_controller.php:606
 #: \controllers\groups_controller.php:357;1269
 #: \controllers\users_controller.php:525;1275
 #: \controllers\videos_controller.php:274
@@ -663,15 +663,15 @@ msgid "User ist nicht eingeloggt"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:47
-#: \controllers\documents_controller.php:34
+#: \controllers\documents_controller.php:37
 #: \views\bookmarks\not_allowed.ctp:2
 msgid "Dieser Link ist privat."
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:61
-#: \controllers\documents_controller.php:16
+#: \controllers\documents_controller.php:19
 #: \views\bookmarks\view.ctp:17
-#: \views\mediawalls\edit_group.ctp:521
+#: \views\mediawalls\edit_group.ctp:522
 msgid "Link"
 msgstr ""
 
@@ -680,7 +680,7 @@ msgid "Links bearbeiten"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:163
-#: \controllers\documents_controller.php:158
+#: \controllers\documents_controller.php:161
 #: \controllers\mediawalls_controller.php:292;388;407;541;566
 msgid "Die Sammlung wurde nicht gefunden"
 msgstr ""
@@ -711,8 +711,28 @@ msgstr ""
 msgid "Der Link wurde gespeichert, konnte aber nicht der Sammlung hinzugefügt werden."
 msgstr ""
 
+#: \controllers\bookmarks_controller.php:419
+#: \controllers\documents_controller.php:587
+#: \controllers\videos_controller.php:255
+msgid "Gruppe: "
+msgstr ""
+
+#: \controllers\bookmarks_controller.php:430
+#: \controllers\documents_controller.php:598
+#: \controllers\videos_controller.php:266
+msgid "Keine Sammlung"
+msgstr ""
+
+#: \controllers\bookmarks_controller.php:430
+#: \controllers\documents_controller.php:598
+#: \controllers\videos_controller.php:266
+#: \views\elements\applications\appwall.ctp:20
+#: \views\elements\mediawalls\mediawall.ctp:20
+msgid "Meine Sammlungen"
+msgstr ""
+
 #: \controllers\bookmarks_controller.php:536;566;757
-#: \controllers\documents_controller.php:272;303;659;734
+#: \controllers\documents_controller.php:275;306;666;741
 #: \controllers\mediawalls_controller.php:1200;1232
 #: \controllers\videos_controller.php:335;590;627;732
 msgid "Daten konnte nicht gespeichert werden. (1)"
@@ -723,59 +743,59 @@ msgid "Link konnte nicht gelöscht werden."
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:715
-#: \controllers\documents_controller.php:436
+#: \controllers\documents_controller.php:439
 msgid "Du muss eingeloggt sein um für einen Link voten zu können"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:731;826
-#: \controllers\documents_controller.php:452;866
+#: \controllers\documents_controller.php:455;873
 #: \controllers\videos_controller.php:706;801
 msgid "Deine Bewertung konnte nicht gespeichert werden."
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:735
-#: \controllers\documents_controller.php:456
+#: \controllers\documents_controller.php:459
 msgid "Du hast bereits für diesen Link abgestimmt"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:740
-#: \controllers\documents_controller.php:461
+#: \controllers\documents_controller.php:464
 #: \controllers\mediawalls_controller.php:885;1670
 msgid "Der Link wurde nicht gefunden."
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:746
-#: \controllers\documents_controller.php:723
+#: \controllers\documents_controller.php:730
 #: \controllers\videos_controller.php:721
 msgid "Du musst eingeloggt sein um einen Kommentar abzugeben"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:760
-#: \controllers\documents_controller.php:713;737
+#: \controllers\documents_controller.php:720;744
 #: \controllers\videos_controller.php:389;735
 msgid "Daten konnte nicht gespeichert werden. (2)"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:809
-#: \controllers\documents_controller.php:849
+#: \controllers\documents_controller.php:856
 #: \controllers\videos_controller.php:784
 msgid "Du muss eingeloggt sein um für ein Kommentar voten zu können"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:830
-#: \controllers\documents_controller.php:870
+#: \controllers\documents_controller.php:877
 #: \controllers\videos_controller.php:805
 msgid "Du hast bereits für diesen Kommentar abgestimmt"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:835
-#: \controllers\documents_controller.php:875
+#: \controllers\documents_controller.php:882
 #: \controllers\videos_controller.php:810
 msgid "Der Kommentar wurde nicht gefunden."
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:862
-#: \controllers\documents_controller.php:902
+#: \controllers\documents_controller.php:909
 #: \controllers\videos_controller.php:837
 msgid "Notiz konnte nicht gespeichert werden."
 msgstr ""
@@ -786,37 +806,37 @@ msgid "Dein Link \""
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:896
-#: \controllers\documents_controller.php:936
+#: \controllers\documents_controller.php:943
 #: \controllers\videos_controller.php:871
 msgid "\" wurde von einem Moderator gesperrt"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:897
-#: \controllers\documents_controller.php:937
+#: \controllers\documents_controller.php:944
 #: \controllers\videos_controller.php:872
 msgid "\" wurde von einem Moderator gesperrt.\n                                 Sperrungsgrund:"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:898;1002
-#: \controllers\documents_controller.php:938;1041
+#: \controllers\documents_controller.php:945;1048
 #: \controllers\videos_controller.php:873;975
 msgid "Bei Fragen antworte bitte auf diese Nachricht oder wende dich an das"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:898;1002
-#: \controllers\documents_controller.php:938;1041
+#: \controllers\documents_controller.php:945;1048
 #: \controllers\mediawalls_controller.php:1638;1726;1814;1901;2073
 #: \controllers\videos_controller.php:873;975
 msgid " Team."
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:903
-#: \controllers\documents_controller.php:943
+#: \controllers\documents_controller.php:950
 msgid "Das Dokument wurde gespeichert."
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:906
-#: \controllers\documents_controller.php:946
+#: \controllers\documents_controller.php:953
 msgid "Das Dokument konnte nicht gespeichert werden."
 msgstr ""
 
@@ -829,7 +849,7 @@ msgid "Das Bookmark konnte nicht gelöscht werden"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:963
-#: \controllers\documents_controller.php:1002
+#: \controllers\documents_controller.php:1009
 #: \controllers\videos_controller.php:936
 msgid "Der Kommentar konnte nicht gespeichert werden."
 msgstr ""
@@ -839,25 +859,25 @@ msgid "Dein Kommentar zum Link \""
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:1000
-#: \controllers\documents_controller.php:1039
+#: \controllers\documents_controller.php:1046
 #: \controllers\mediawalls_controller.php:2071
 #: \controllers\videos_controller.php:973
 msgid "\" wurde von einem Moderator gelöscht"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:1001
-#: \controllers\documents_controller.php:1040
+#: \controllers\documents_controller.php:1047
 msgid "\" wurde von einem Moderator gelöscht.\n                                 Sperrungsgrund:"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:1007
-#: \controllers\documents_controller.php:1046
+#: \controllers\documents_controller.php:1053
 #: \controllers\videos_controller.php:980
 msgid "Der Kommentar wurde gelöscht"
 msgstr ""
 
 #: \controllers\bookmarks_controller.php:1009
-#: \controllers\documents_controller.php:1048
+#: \controllers\documents_controller.php:1055
 #: \controllers\videos_controller.php:982
 msgid "Der Kommentar konnte nicht gelöscht werden"
 msgstr ""
@@ -872,6 +892,7 @@ msgstr ""
 #: \views\contacts\enquiries.ctp:3
 #: \views\contacts\index.ctp:3
 #: \views\documents\rpc_edit.ctp:17
+#: \views\documents\upload.ctp:268
 #: \views\elements\header_user_actions.ctp:9
 #: \views\elements\videos\video_link.ctp:10
 #: \views\elements\videos\video_upload.ctp:331
@@ -945,76 +966,76 @@ msgstr ""
 msgid "´s Freunde"
 msgstr ""
 
-#: \controllers\documents_controller.php:47
+#: \controllers\documents_controller.php:50
 #: \views\administrate\comments_index.ctp:88
 #: \views\documents\admin_edit.ctp:2
 #: \views\documents\view.ctp:22
-#: \views\mediawalls\edit_group.ctp:510
+#: \views\mediawalls\edit_group.ctp:511
 #: \views\pages\admin_index.ctp:413
 msgid "Dokument"
 msgstr ""
 
-#: \controllers\documents_controller.php:178
+#: \controllers\documents_controller.php:181
 msgid "Dokumente editieren"
 msgstr ""
 
-#: \controllers\documents_controller.php:425;428
+#: \controllers\documents_controller.php:428;431
 msgid "Das Dokument konnte nicht gelöscht werden."
 msgstr ""
 
-#: \controllers\documents_controller.php:477
+#: \controllers\documents_controller.php:484
 msgid "Ein neues Dokument hochladen"
 msgstr ""
 
-#: \controllers\documents_controller.php:491
+#: \controllers\documents_controller.php:498
 #: \controllers\videos_controller.php:1040
 msgid "Keiner Gruppe zuweisen"
 msgstr ""
 
-#: \controllers\documents_controller.php:632
+#: \controllers\documents_controller.php:639
 #: \controllers\mediawalls_controller.php:1071
 msgid "Nur öffentliche Dokumente können in öffentliche Gruppensammlungen hinzugefügt werden."
 msgstr ""
 
-#: \controllers\documents_controller.php:696
+#: \controllers\documents_controller.php:703
 msgid "Das Dokument wurde gespeichert, konnte aber nicht der Sammlung hinzugefügt werden. (1)"
 msgstr ""
 
-#: \controllers\documents_controller.php:704
+#: \controllers\documents_controller.php:711
 msgid "Das Dokument wurde gespeichert, konnte aber nicht der Sammlung hinzugefügt werden. (2)"
 msgstr ""
 
-#: \controllers\documents_controller.php:707
+#: \controllers\documents_controller.php:714
 msgid "Das Dokument wurde gespeichert, konnte aber nicht der Sammlung hinzugefügt werden. (3)"
 msgstr ""
 
-#: \controllers\documents_controller.php:756;790
+#: \controllers\documents_controller.php:763;797
 #: \views\documents\not_allowed.ctp:2
 msgid "Dieses Dokument ist privat."
 msgstr ""
 
-#: \controllers\documents_controller.php:858
+#: \controllers\documents_controller.php:865
 #: \controllers\videos_controller.php:793
 msgid "Du darfst nicht für deinen eigenen Kommentar abstimmen"
 msgstr ""
 
-#: \controllers\documents_controller.php:936;937
+#: \controllers\documents_controller.php:943;944
 msgid "Dein Dokument \""
 msgstr ""
 
-#: \controllers\documents_controller.php:979
+#: \controllers\documents_controller.php:986
 msgid "Das Document wurde gelöscht"
 msgstr ""
 
-#: \controllers\documents_controller.php:982
+#: \controllers\documents_controller.php:989
 msgid "Das Document konnte nicht gelöscht werden"
 msgstr ""
 
-#: \controllers\documents_controller.php:1039;1040
+#: \controllers\documents_controller.php:1046;1047
 msgid "Dein Kommentar zum Dokument \""
 msgstr ""
 
-#: \controllers\documents_controller.php:1059
+#: \controllers\documents_controller.php:1066
 msgid "Admin - Dokumente"
 msgstr ""
 
@@ -1635,10 +1656,6 @@ msgstr ""
 msgid "Neue Nachricht schreiben"
 msgstr ""
 
-#: \controllers\pms_controller.php:139;177;306
-msgid "[Kein Betreff]"
-msgstr ""
-
 #: \controllers\pms_controller.php:189;217;224;229;261
 msgid "Nachricht konnte nicht verschickt werden."
 msgstr ""
@@ -1753,9 +1770,9 @@ msgid "Stöbern"
 msgstr ""
 
 #: \controllers\searches_controller.php:909;1184
-#: \views\applications\edit_app.ctp:17;30
-#: \views\mediawalls\edit.ctp:17;30
-#: \views\mediawalls\edit_group.ctp:17;30
+#: \views\applications\edit_app.ctp:17;31
+#: \views\mediawalls\edit.ctp:17;31
+#: \views\mediawalls\edit_group.ctp:17;31
 msgid "Suchbegriff"
 msgstr ""
 
@@ -2443,6 +2460,7 @@ msgstr ""
 #: \views\bookmarks\rpc_add.ctp:21
 #: \views\bookmarks\rpc_edit.ctp:29
 #: \views\documents\rpc_edit.ctp:29
+#: \views\documents\upload.ctp:279
 #: \views\elements\videos\video_link.ctp:20
 #: \views\elements\videos\video_upload.ctp:340
 #: \views\elements\videos\video_upload_new.ctp:269
@@ -2458,6 +2476,7 @@ msgstr ""
 #: \views\bookmarks\rpc_add.ctp:19
 #: \views\bookmarks\rpc_edit.ctp:27
 #: \views\documents\rpc_edit.ctp:27
+#: \views\documents\upload.ctp:276
 #: \views\elements\applications\appwall.ctp:204;214
 #: \views\elements\videos\video_link.ctp:18
 #: \views\elements\videos\video_upload.ctp:338
@@ -2552,7 +2571,7 @@ msgstr ""
 #: \views\administrate\blogposts_edit.ctp:8
 #: \views\administrates\blogposts_edit.ctp:7
 #: \views\elements\header_user_actions.ctp:44;70
-#: \views\preferences\admin_edit.ctp:35
+#: \views\preferences\admin_edit.ctp:36
 msgid "Deutsch"
 msgstr ""
 
@@ -2561,7 +2580,7 @@ msgstr ""
 #: \views\administrate\blogposts_add.ctp:8
 #: \views\administrates\blogposts_edit.ctp:7
 #: \views\elements\header_user_actions.ctp:45;71
-#: \views\preferences\admin_edit.ctp:35
+#: \views\preferences\admin_edit.ctp:36
 msgid "Englisch"
 msgstr ""
 
@@ -2639,6 +2658,7 @@ msgstr ""
 #: \views\documents\admin_comment_delete.ctp:14;15
 #: \views\documents\admin_comment_edit.ctp:20
 #: \views\documents\admin_edit.ctp:103
+#: \views\documents\upload.ctp:111
 #: \views\elements\applications\appwall.ctp:215
 #: \views\elements\contacts\single_contact.ctp:15
 #: \views\elements\pms\single_message.ctp:29
@@ -2650,7 +2670,7 @@ msgstr ""
 #: \views\groups\admin_delete.ctp:33
 #: \views\groups\admin_edit.ctp:26
 #: \views\pms\view.ctp:37
-#: \views\preferences\admin_edit.ctp:70
+#: \views\preferences\admin_edit.ctp:71
 #: \views\threads\view.ctp:132
 #: \views\userblacklists\admin_add.ctp:11
 #: \views\userblacklists\admin_edit.ctp:12;12
@@ -2677,6 +2697,7 @@ msgstr ""
 #: \views\documents\admin_edit.ctp:101
 #: \views\documents\info_popup.ctp:61
 #: \views\documents\rpc_edit.ctp:38
+#: \views\documents\upload.ctp:288
 #: \views\documents\view.ctp:131;149
 #: \views\elements\mediawalls\mediawall.ctp:78
 #: \views\elements\videos\upload_form.ctp:191
@@ -2688,7 +2709,7 @@ msgstr ""
 #: \views\groups\admin_edit.ctp:24
 #: \views\groups\admin_private_edit.ctp:18
 #: \views\mediawalls\rpc_edit.ctp:18
-#: \views\preferences\admin_edit.ctp:66
+#: \views\preferences\admin_edit.ctp:67
 #: \views\translations\add.ctp:8
 #: \views\translations\translate.ctp:19
 #: \views\userblacklists\admin_add.ctp:9
@@ -2736,7 +2757,7 @@ msgstr ""
 
 #: \views\administrate\blogposts_add.ctp:18
 #: \views\administrate\blogposts_edit.ctp:15
-#: \views\applications\edit_app.ctp:411
+#: \views\applications\edit_app.ctp:412
 #: \views\applications\rpc_edit_video.ctp:12
 #: \views\bookmarks\admin_edit.ctp:14
 #: \views\documents\admin_edit.ctp:13
@@ -2857,7 +2878,7 @@ msgid "Bewertung"
 msgstr ""
 
 #: \views\administrate\comments_index.ctp:33
-#: \views\mediawalls\edit_group.ctp:516
+#: \views\mediawalls\edit_group.ctp:517
 #: \views\pages\admin_index.ctp:388
 #: \views\videos\admin_edit.ctp:2
 #: \views\videos\admin_index.ctp:55
@@ -2938,6 +2959,7 @@ msgstr ""
 #: \views\contacts\rpc_add.ctp:6
 #: \views\documents\rpc_add.ctp:7
 #: \views\documents\rpc_edit.ctp:7
+#: \views\documents\upload.ctp:264
 #: \views\elements\videos\upload_form.ctp:178
 #: \views\elements\videos\video_link.ctp:6
 #: \views\elements\videos\video_upload.ctp:327
@@ -2961,6 +2983,7 @@ msgstr ""
 #: \views\contacts\rpc_add.ctp:7
 #: \views\documents\rpc_add.ctp:8
 #: \views\documents\rpc_edit.ctp:8
+#: \views\documents\upload.ctp:265
 #: \views\elements\videos\upload_form.ctp:179
 #: \views\elements\videos\video_link.ctp:7
 #: \views\elements\videos\video_upload.ctp:328
@@ -2981,6 +3004,7 @@ msgstr ""
 #: \views\bookmarks\rpc_edit.ctp:13
 #: \views\documents\rpc_add.ctp:9
 #: \views\documents\rpc_edit.ctp:13
+#: \views\documents\upload.ctp:268
 #: \views\elements\videos\upload_form.ctp:181
 #: \views\elements\videos\video_link.ctp:10
 #: \views\elements\videos\video_upload.ctp:331
@@ -2996,6 +3020,7 @@ msgstr ""
 #: \views\bookmarks\rpc_edit.ctp:15
 #: \views\documents\rpc_add.ctp:12
 #: \views\documents\rpc_edit.ctp:15
+#: \views\documents\upload.ctp:268
 #: \views\elements\videos\upload_form.ctp:184
 #: \views\elements\videos\video_link.ctp:10
 #: \views\elements\videos\video_upload.ctp:331
@@ -3021,6 +3046,7 @@ msgstr ""
 #: \views\bookmarks\rpc_edit.ctp:19
 #: \views\documents\rpc_add.ctp:14
 #: \views\documents\rpc_edit.ctp:19
+#: \views\documents\upload.ctp:268
 #: \views\elements\videos\upload_form.ctp:186
 #: \views\elements\videos\video_link.ctp:10
 #: \views\elements\videos\video_upload.ctp:331
@@ -3039,6 +3065,7 @@ msgstr ""
 #: \views\contacts\rpc_add.ctp:8
 #: \views\documents\rpc_add.ctp:15
 #: \views\documents\rpc_edit.ctp:33
+#: \views\documents\upload.ctp:283
 #: \views\documents\view.ctp:39
 #: \views\elements\videos\upload_form.ctp:187
 #: \views\elements\videos\video_link.ctp:24
@@ -3059,6 +3086,7 @@ msgstr ""
 #: \views\bookmarks\rpc_edit.ctp:35
 #: \views\documents\rpc_add.ctp:16
 #: \views\documents\rpc_edit.ctp:35
+#: \views\documents\upload.ctp:285
 #: \views\elements\videos\upload_form.ctp:188
 #: \views\elements\videos\video_link.ctp:27
 #: \views\elements\videos\video_upload.ctp:346
@@ -3074,6 +3102,7 @@ msgstr ""
 #: \views\bookmarks\rpc_edit.ctp:36
 #: \views\documents\rpc_add.ctp:17
 #: \views\documents\rpc_edit.ctp:36
+#: \views\documents\upload.ctp:286
 #: \views\elements\videos\upload_form.ctp:189
 #: \views\elements\videos\video_link.ctp:28
 #: \views\elements\videos\video_upload.ctp:347
@@ -3117,6 +3146,7 @@ msgstr ""
 #: \views\contacts\rpc_add.ctp:53
 #: \views\documents\rpc_add.ctp:62
 #: \views\documents\rpc_edit.ctp:168
+#: \views\documents\upload.ctp:371
 #: \views\documents\view.ctp:223
 #: \views\elements\header_user_actions.ctp:162
 #: \views\elements\applications\appwall.ctp:365
@@ -3163,6 +3193,7 @@ msgstr ""
 #: \views\contacts\rpc_add.ctp:54
 #: \views\documents\rpc_add.ctp:63
 #: \views\documents\rpc_edit.ctp:169
+#: \views\documents\upload.ctp:372
 #: \views\documents\view.ctp:224
 #: \views\elements\applications\appwall.ctp:366
 #: \views\elements\groups\add_group.ctp:93
@@ -3208,6 +3239,7 @@ msgstr ""
 #: \views\contacts\rpc_add.ctp:55
 #: \views\documents\rpc_add.ctp:64
 #: \views\documents\rpc_edit.ctp:170
+#: \views\documents\upload.ctp:373
 #: \views\documents\view.ctp:225
 #: \views\elements\applications\appwall.ctp:367
 #: \views\elements\groups\add_group.ctp:94
@@ -3296,27 +3328,27 @@ msgstr ""
 msgid "Medien durchsuchen"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:35
-#: \views\mediawalls\edit.ctp:35
-#: \views\mediawalls\edit_group.ctp:35
+#: \views\applications\edit_app.ctp:36
+#: \views\mediawalls\edit.ctp:36
+#: \views\mediawalls\edit_group.ctp:36
 msgid "Suche zurücksetzen"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:41
-#: \views\mediawalls\edit.ctp:41
-#: \views\mediawalls\edit_group.ctp:41
+#: \views\applications\edit_app.ctp:42
+#: \views\mediawalls\edit.ctp:42
+#: \views\mediawalls\edit_group.ctp:42
 #: \views\mediawalls\index.ctp:19
 msgid "Anzeigen:"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:44;44
+#: \views\applications\edit_app.ctp:45;45
 #: \views\documents\view.ctp:17
 #: \views\elements\mediawalls\mediawall.ctp:113;113
 #: \views\elements\users\dh_oftheday.ctp:61
 #: \views\groups\admin_delete.ctp:19
 #: \views\layouts\backend.ctp:68
-#: \views\mediawalls\edit.ctp:44;44
-#: \views\mediawalls\edit_group.ctp:44;44
+#: \views\mediawalls\edit.ctp:45;45
+#: \views\mediawalls\edit_group.ctp:45;45
 #: \views\mediawalls\index.ctp:22
 #: \views\pages\stoebern.ctp:140
 #: \views\reports\admin_delete.ctp:15
@@ -3326,30 +3358,30 @@ msgstr ""
 msgid "Dokumente"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:45;45
+#: \views\applications\edit_app.ctp:46;46
 #: \views\elements\mediawalls\mediawall.ctp:114;114
 #: \views\elements\users\dh_oftheday.ctp:51
 #: \views\groups\admin_delete.ctp:20
 #: \views\layouts\backend.ctp:69
-#: \views\mediawalls\edit.ctp:45;45
-#: \views\mediawalls\edit_group.ctp:45;45
+#: \views\mediawalls\edit.ctp:46;46
+#: \views\mediawalls\edit_group.ctp:46;46
 #: \views\mediawalls\index.ctp:23
 #: \views\reports\admin_delete.ctp:16
 #: \views\users\admin_delete.ctp:16
 msgid "Links"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:48
-#: \views\mediawalls\edit.ctp:48
-#: \views\mediawalls\edit_group.ctp:48
+#: \views\applications\edit_app.ctp:49
+#: \views\mediawalls\edit.ctp:49
+#: \views\mediawalls\edit_group.ctp:49
 msgid "d.tv Videos"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:49;49
+#: \views\applications\edit_app.ctp:50;50
 #: \views\elements\mediawalls\mediawall.ctp:115;115;365
 #: \views\groups\admin_delete.ctp:21
-#: \views\mediawalls\edit.ctp:49;49
-#: \views\mediawalls\edit_group.ctp:49;49
+#: \views\mediawalls\edit.ctp:50;50
+#: \views\mediawalls\edit_group.ctp:50;50
 #: \views\mediawalls\view.ctp:8
 #: \views\pages\home.ctp:56;56
 #: \views\reports\admin_delete.ctp:17
@@ -3357,33 +3389,33 @@ msgstr ""
 msgid "Sammlungen"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:53;53
-#: \views\mediawalls\edit.ctp:53;53
-#: \views\mediawalls\edit_group.ctp:53;53
+#: \views\applications\edit_app.ctp:54;54
+#: \views\mediawalls\edit.ctp:54;54
+#: \views\mediawalls\edit_group.ctp:54;54
 msgid "Nur von mir hinzugefügte Medien anzeigen"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:217;226;235
+#: \views\applications\edit_app.ctp:218;227;236
 msgid "Fehler!"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:218
+#: \views\applications\edit_app.ctp:219
 msgid "Links sind leider nicht erlaubt!"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:227
+#: \views\applications\edit_app.ctp:228
 msgid "Dokumente sind leider nicht erlaubt!"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:236
+#: \views\applications\edit_app.ctp:237
 msgid "Sammlungen sind leider nicht erlaubt!"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:326
+#: \views\applications\edit_app.ctp:327
 msgid "Video zur Bewerbungsmappe hinzugefügt"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:356
+#: \views\applications\edit_app.ctp:357
 #: \views\applications\manage_correspondence.ctp:29
 #: \views\applications\rpc_paginate_application.ctp:77
 #: \views\bookmarks\admin_comment_delete.ctp:2
@@ -3394,7 +3426,7 @@ msgstr ""
 msgid "löschen"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:357
+#: \views\applications\edit_app.ctp:358
 #: \views\applications\manage_correspondence.ctp:28
 #: \views\applications\rpc_paginate_application.ctp:78
 #: \views\bookmarks\admin_comment_edit.ctp:2
@@ -3410,20 +3442,20 @@ msgstr ""
 msgid "bearbeiten"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:364;375
+#: \views\applications\edit_app.ctp:365;376
 #: \views\applications\rpc_edit_video.ctp:65;76
 msgid "Dieses Video ist bereits in der Bewerbungsmappe"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:402;412
+#: \views\applications\edit_app.ctp:403;413
 msgid "Video hinzufügen"
 msgstr ""
 
-#: \views\applications\edit_app.ctp:404
+#: \views\applications\edit_app.ctp:405
 msgid "Für die Darstellung deiner Videos in der Bewerbungsmappe,\n            kannst Du Titel und Beschreibung anpassen."
 msgstr ""
 
-#: \views\applications\edit_app.ctp:410
+#: \views\applications\edit_app.ctp:411
 #: \views\applications\rpc_edit_video.ctp:11
 msgid "Titel des Videos"
 msgstr ""
@@ -4402,6 +4434,7 @@ msgstr ""
 #: \views\bookmarks\rpc_add.ctp:11
 #: \views\bookmarks\rpc_edit.ctp:9
 #: \views\documents\rpc_edit.ctp:9
+#: \views\documents\upload.ctp:266
 #: \views\documents\view.ctp:102
 #: \views\elements\videos\video_link.ctp:8
 #: \views\elements\videos\video_upload.ctp:329
@@ -4415,6 +4448,7 @@ msgid "Autoren:"
 msgstr ""
 
 #: \views\bookmarks\rpc_add.ctp:12
+#: \views\documents\upload.ctp:267
 #: \views\elements\videos\video_upload.ctp:330
 #: \views\elements\videos\video_upload_new.ctp:257
 msgid "Direkt sammeln in:"
@@ -4423,6 +4457,7 @@ msgstr ""
 #: \views\bookmarks\rpc_add.ctp:17
 #: \views\bookmarks\rpc_edit.ctp:25
 #: \views\documents\rpc_edit.ctp:25
+#: \views\documents\upload.ctp:273
 #: \views\elements\videos\video_link.ctp:16
 #: \views\elements\videos\video_upload.ctp:336
 #: \views\elements\videos\video_upload_new.ctp:263
@@ -4696,6 +4731,7 @@ msgid "Freund löschen?"
 msgstr ""
 
 #: \views\contacts\index.ctp:54
+#: \views\documents\upload.ctp:111
 #: \views\elements\contacts\single_contact.ctp:15
 #: \views\elements\pms\single_message.ctp:29
 #: \views\elements\users\userdata_left.ctp:66;122
@@ -4795,7 +4831,6 @@ msgid "CA."
 msgstr ""
 
 #: \views\documents\rpc_view.ctp:21
-#: \views\documents\view.ctp:99
 msgid "Seiten"
 msgstr ""
 
@@ -4803,32 +4838,56 @@ msgstr ""
 msgid "Dokument hochladen"
 msgstr ""
 
-#: \views\documents\upload.ctp:104
+#: \views\documents\upload.ctp:37
+#: \views\elements\videos\video_upload_new.ctp:29
+msgid "Fortschritt"
+msgstr ""
+
+#: \views\documents\upload.ctp:78;376
+msgid "Dein Dokument ist noch nicht vollständig hochgeladen. Seite wirklich verlassen?"
+msgstr ""
+
+#: \views\documents\upload.ctp:83
+#: \views\elements\videos\video_upload_new.ctp:73
+msgid "Bearbeite..."
+msgstr ""
+
+#: \views\documents\upload.ctp:105
 #: \views\elements\videos\video_upload_new.ctp:95
 msgid "Maximale Dateianzahl überschritten"
 msgstr ""
 
-#: \views\documents\upload.ctp:105
+#: \views\documents\upload.ctp:106
 #: \views\elements\videos\video_upload_new.ctp:96
 msgid "Dateityp nicht erlaubt"
 msgstr ""
 
-#: \views\documents\upload.ctp:106
+#: \views\documents\upload.ctp:107
 #: \views\elements\videos\video_upload_new.ctp:97
 msgid "Die Datei überschreitet die erlaubte Größe"
 msgstr ""
 
-#: \views\documents\upload.ctp:107
+#: \views\documents\upload.ctp:108
 #: \views\elements\videos\video_upload_new.ctp:98
 msgid "Minimale Dateigröße nicht erreicht"
 msgstr ""
 
-#: \views\documents\upload.ctp:226
+#: \views\documents\upload.ctp:111
+#: \views\elements\videos\video_upload_new.ctp:101
+msgid "Hochladen bestätigen"
+msgstr ""
+
+#: \views\documents\upload.ctp:111
+#: \views\elements\videos\video_upload_new.ctp:101
+msgid "Hiermit bestätige ich, dass alle hochzuladenden Dateien frei sind und keine Rechte Dritter verletzen."
+msgstr ""
+
+#: \views\documents\upload.ctp:227
 #: \views\elements\videos\video_upload_new.ctp:217
 msgid "Upload erfolgreich"
 msgstr ""
 
-#: \views\documents\upload.ctp:246
+#: \views\documents\upload.ctp:247
 #: \views\elements\videos\video_upload_new.ctp:237
 msgid "Upload fehlgeschlagen. Bitte versuche es später erneut"
 msgstr ""
@@ -4845,10 +4904,6 @@ msgstr ""
 msgid "Nächste Seite"
 msgstr ""
 
-#: \views\documents\view.ctp:99
-msgid "Ca."
-msgstr ""
-
 #: \views\elements\autosuggest.ctp:82
 msgid "Fehler: Variable \"selector\" und \"url\" müssen übergeben werden!"
 msgstr ""
@@ -4862,8 +4917,8 @@ msgid "Gefällt mir nicht"
 msgstr ""
 
 #: \views\elements\flash_failure.ctp:2
-#: \views\mediawalls\edit.ctp:342
-#: \views\mediawalls\edit_group.ctp:482
+#: \views\mediawalls\edit.ctp:343
+#: \views\mediawalls\edit_group.ctp:483
 msgid "Dieses Video ist bereits in der Sammlung"
 msgstr ""
 
@@ -5011,11 +5066,6 @@ msgstr ""
 #: \views\elements\videos\new_videos.ctp:46
 #: \views\elements\videos\recommended_videos.ctp:46
 msgid "WEITERE MEDIEN..."
-msgstr ""
-
-#: \views\elements\applications\appwall.ctp:20
-#: \views\elements\mediawalls\mediawall.ctp:20
-msgid "Meine Sammlungen"
 msgstr ""
 
 #: \views\elements\applications\appwall.ctp:21
@@ -6411,7 +6461,11 @@ msgstr ""
 msgid " eine Nachricht schicken"
 msgstr ""
 
-#: \views\elements\users\userdata_left.ctp:62;66;122
+#: \views\elements\users\userdata_left.ctp:62
+msgid "Freundschaftsanfrage"
+msgstr ""
+
+#: \views\elements\users\userdata_left.ctp:66;122
 msgid "Freund hinzufügen"
 msgstr ""
 
@@ -6617,18 +6671,6 @@ msgstr ""
 #: \views\elements\videos\video_upload.ctp:427
 #: \views\elements\videos\video_upload_new.ctp:68;366
 msgid "Dein Video ist noch nicht vollständig hochgeladen. Seite wirklich verlassen?"
-msgstr ""
-
-#: \views\elements\videos\video_upload_new.ctp:29
-msgid "Fortschritt"
-msgstr ""
-
-#: \views\elements\videos\video_upload_new.ctp:101
-msgid "Hochladen bestätigen"
-msgstr ""
-
-#: \views\elements\videos\video_upload_new.ctp:101
-msgid "Hiermit bestätige ich, dass alle hochzuladenden Dateien frei sind und keine Rechte Dritter verletzen."
 msgstr ""
 
 #: \views\groupcategories\admin_add.ctp:2
@@ -7475,7 +7517,7 @@ msgid "Das Online-Videoportal für Jugendliche"
 msgstr ""
 
 #: \views\mediawalls\by_user.ctp:12
-#: \views\mediawalls\edit.ctp:64
+#: \views\mediawalls\edit.ctp:65
 #: \views\mediawalls\index.ctp:41
 #: \views\mediawalls\view.ctp:13
 #: \views\pages\stoebern.ctp:86
@@ -7485,42 +7527,42 @@ msgstr ""
 msgid "SAMMLUNGEN"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:237
-#: \views\mediawalls\edit_group.ctp:403
+#: \views\mediawalls\edit.ctp:238
+#: \views\mediawalls\edit_group.ctp:404
 msgid "Link zur Sammlung hinzugefügt"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:241
-#: \views\mediawalls\edit_group.ctp:407
+#: \views\mediawalls\edit.ctp:242
+#: \views\mediawalls\edit_group.ctp:408
 msgid "Dieser Link ist bereits in der Sammlung"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:269
-#: \views\mediawalls\edit_group.ctp:428
+#: \views\mediawalls\edit.ctp:270
+#: \views\mediawalls\edit_group.ctp:429
 msgid "Dokument zur Sammlung hinzugefügt"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:273
-#: \views\mediawalls\edit_group.ctp:432
+#: \views\mediawalls\edit.ctp:274
+#: \views\mediawalls\edit_group.ctp:433
 msgid "Dieses Dokument ist bereits in der Sammlung"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:301
-#: \views\mediawalls\edit_group.ctp:453
+#: \views\mediawalls\edit.ctp:302
+#: \views\mediawalls\edit_group.ctp:454
 msgid "Sammlung zur Sammlung hinzugefügt"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:305
-#: \views\mediawalls\edit_group.ctp:457
+#: \views\mediawalls\edit.ctp:306
+#: \views\mediawalls\edit_group.ctp:458
 msgid "Diese Sammlung ist bereits in der Sammlung"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:310
+#: \views\mediawalls\edit.ctp:311
 msgid "Du darfst die Sammlung nicht hinzufügen"
 msgstr ""
 
-#: \views\mediawalls\edit.ctp:338
-#: \views\mediawalls\edit_group.ctp:478
+#: \views\mediawalls\edit.ctp:339
+#: \views\mediawalls\edit_group.ctp:479
 msgid "Video zur Sammlung hinzugefügt"
 msgstr ""
 
@@ -7528,40 +7570,40 @@ msgstr ""
 msgid "Gruppensammlung bearbeiten"
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:64
+#: \views\mediawalls\edit_group.ctp:65
 msgid "GRUPPENSAMMLUNGEN"
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:249;292
+#: \views\mediawalls\edit_group.ctp:250;293
 msgid "Fehler: Privatsphäre nicht korrekt gesetzt."
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:299
+#: \views\mediawalls\edit_group.ctp:300
 msgid "Hinweis:"
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:300
+#: \views\mediawalls\edit_group.ctp:301
 msgid "Medien anderer Benutzer können nur in Gruppensammlungen hinzugefügt werden,<br /> wenn sie öffentlich sind."
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:486
+#: \views\mediawalls\edit_group.ctp:487
 msgid "Medium hinzufügen"
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:526
+#: \views\mediawalls\edit_group.ctp:527
 #: \views\mediawalls\rpc_add.ctp:3
 msgid "Sammlung"
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:540
+#: \views\mediawalls\edit_group.ctp:541
 msgid "zur Sammlung hinzugefügt"
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:542
+#: \views\mediawalls\edit_group.ctp:543
 msgid "Dieses"
 msgstr ""
 
-#: \views\mediawalls\edit_group.ctp:542
+#: \views\mediawalls\edit_group.ctp:543
 msgid " ist bereits in der Sammlung"
 msgstr ""
 
@@ -8271,7 +8313,7 @@ msgid "Die Nachricht konnte nicht gespeichert werden"
 msgstr ""
 
 #: \views\preferences\admin_edit.ctp:2
-#: \views\preferences\admin_index.ctp:52
+#: \views\preferences\admin_index.ctp:53
 msgid "Preferences bearbeiten"
 msgstr ""
 
@@ -8315,27 +8357,31 @@ msgstr ""
 msgid "Sprachauswahl"
 msgstr ""
 
-#: \views\preferences\admin_edit.ctp:20
+#: \views\preferences\admin_edit.ctp:19
+msgid "Document-Upload Extension (comma separated)"
+msgstr ""
+
+#: \views\preferences\admin_edit.ctp:21
 msgid "Site Konfiguration"
 msgstr ""
 
-#: \views\preferences\admin_edit.ctp:26
+#: \views\preferences\admin_edit.ctp:27
 msgid "Email Konfiguration"
 msgstr ""
 
-#: \views\preferences\admin_edit.ctp:30
+#: \views\preferences\admin_edit.ctp:31
 msgid "Invite-Code Konfiguration"
 msgstr ""
 
-#: \views\preferences\admin_edit.ctp:31;38
+#: \views\preferences\admin_edit.ctp:32;39
 msgid "aktiv"
 msgstr ""
 
-#: \views\preferences\admin_edit.ctp:31;38
+#: \views\preferences\admin_edit.ctp:32;39
 msgid "inaktiv"
 msgstr ""
 
-#: \views\preferences\admin_edit.ctp:34
+#: \views\preferences\admin_edit.ctp:35
 msgid "Sprach-Konfiguration"
 msgstr ""
 
